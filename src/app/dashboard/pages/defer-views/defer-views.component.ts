@@ -8,7 +8,6 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
         CommonModule,
     ],
     template: `<p>defer-options works!</p>`,
-    styleUrl: './defer-options.component.css',
     changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export default class DeferOptionsComponent { }
