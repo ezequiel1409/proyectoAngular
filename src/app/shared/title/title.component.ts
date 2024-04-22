@@ -11,4 +11,6 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
     styleUrl: './title.component.css',
     changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class TitleComponent { }
+export class TitleComponent { 
+    public title = "";
+}
